@@ -1,6 +1,6 @@
-# Excel-RavenStack-SaaS-Analytics-Dashboard
+# 📊 RavenStack SaaS Analytics Dashboard (Excel Project)
 An end-to-end SaaS analytics dashboard built in Excel using Power Query, dynamic KPIs, and interactive simulators to analyze churn, revenue, feature adoption, and customer satisfaction.
-📊 RavenStack SaaS Analytics Dashboard (Excel Project)
+
 🧭 Overview
 
 This project demonstrates an end-to-end Excel-based analytics workflow for a fictional SaaS company, RavenStack.
@@ -58,7 +58,7 @@ Final dataset contained metrics from across the SaaS lifecycle.
 📈 Dashboard Components
 
 The dashboard (on the Dashboard sheet) is designed for business decision-makers to quickly assess company health and performance.
-It contains four main sections:
+It contains 5 main sections:
 
 1️⃣ Key Metrics (KPI Cards)
 
@@ -82,36 +82,9 @@ Total Support Tickets
 
 Each KPI is dynamically calculated from the merged dataset, automatically updating with filtered inputs.
 
-2️⃣ Churn & Retention
+2️⃣ 💰 MRR / ARR Simulator (Interactive)
 
-Visualization: Column chart — Churn Reason vs Signup Month/Year
-KPIs: Reactivation Rate, Total Refunds
-
-💡 Insight: Identify why customers leave, track churn trends over time, and measure success of win-back efforts.
-
-3️⃣ Feature Usage & Beta Adoption
-
-Visualization: Bar/Column Chart by Plan Tier
-
-Total Usage Count
-
-Beta Feature Adoption %
-
-💡 Insight: Understand how usage varies by plan tier and which users engage with beta or experimental features.
-
-4️⃣ Support & Customer Experience
-
-Visualizations:
-
-Avg. Resolution Time by Priority
-
-Customer Satisfaction by Country
-
-💡 Insight: Measure customer experience quality and operational efficiency — key to reducing churn.
-
-5️⃣ 💰 MRR / ARR Simulator (Interactive)
-
-A fully interactive simulator allows users to filter and project revenue based on:
+A fully interactive simulator where visual dynamically change and allows users to filter and project revenue based on:
 
 Plan Tier
 
@@ -127,7 +100,38 @@ Filtered ARR
 
 Active Subscriptions / Seats
 
+Charts and visualizations include a line chart that shows how both the filteres MRR and ARR correspond to each other and a column chart that shows the number of seats
+
 💡 Insight: Test revenue scenarios under different customer, region, or pricing conditions — just like a business dashboard.
+
+3️⃣ Churn & Retention
+
+A pivot table that shows which reason contributed more towards churn //////////////////////////////
+Visualization: Column chart — Churn Reason vs Signup Month/Year
+
+KPIs: Reactivation Rate, Total Refunds
+
+💡 Insight: Identify why customers leave, track churn trends over time, and measure success of win-back efforts.
+
+4️⃣ Feature Usage & Beta Adoption
+
+Visualization: Bar/Column Chart by Plan Tier
+
+Total Usage Count
+
+Beta Feature Adoption %
+
+💡 Insight: Understand how usage varies by plan tier and which users engage with beta or experimental features.
+
+5️⃣ Support & Customer Experience
+
+Visualizations:
+
+Avg. Resolution Time by Priority
+
+Customer Satisfaction by Country
+
+💡 Insight: Measure customer experience quality and operational efficiency — key to reducing churn.
 
 🧠 Skills Demonstrated
 Category	Skills
