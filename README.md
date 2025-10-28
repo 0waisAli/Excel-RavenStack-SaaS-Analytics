@@ -54,9 +54,12 @@ All five tables were loaded and processed in **Power Query**, resulting in a sin
 ## 📈 Dashboard Components
 
 The **Dashboard** sheet is designed for business decision-makers to quickly assess company health and performance.  
-It contains **four main sections**:
+It contains **five main components**:
 
-### 1️⃣ Key Metrics (KPI Cards)
+---
+
+### 1️⃣ KPI Cards — Company Overview
+
 Instant overview of business performance:
 - Total Accounts  
 - Active Subscriptions  
@@ -67,37 +70,12 @@ Instant overview of business performance:
 - Beta Feature Adoption Rate (%)  
 - Total Support Tickets  
 
-Each KPI is dynamically calculated from the merged dataset, automatically updating with filtered inputs.
+💡 *Insight:* A top-level summary of company health, revenue scale, and engagement performance.
 
 ---
 
-### 2️⃣ Churn & Retention
-**Visualization:** Column chart — Churn Reason vs Signup Month/Year  
-**KPIs:** Reactivation Rate, Total Refunds  
+### 2️⃣ 💰 MRR / ARR Simulator (Interactive)
 
-💡 *Insight:* Identify why customers leave, track churn trends over time, and measure success of win-back efforts.
-
----
-
-### 3️⃣ Feature Usage & Beta Adoption
-**Visualization:** Bar/Column Chart by Plan Tier  
-- Total Usage Count  
-- Beta Feature Adoption %  
-
-💡 *Insight:* Understand how usage varies by plan tier and which users engage with beta or experimental features.
-
----
-
-### 4️⃣ Support & Customer Experience
-**Visualizations:**
-- Avg. Resolution Time by Priority  
-- Customer Satisfaction by Country  
-
-💡 *Insight:* Measure customer experience quality and operational efficiency — key to reducing churn.
-
----
-
-### 5️⃣ 💰 MRR / ARR Simulator (Interactive)
 A fully interactive simulator allows users to filter and project revenue based on:
 - **Plan Tier**  
 - **Billing Frequency**  
@@ -108,7 +86,36 @@ Dynamic metrics update instantly:
 - Filtered **ARR**  
 - **Active Subscriptions / Seats**
 
-💡 *Insight:* Test revenue scenarios under different customer, region, or pricing conditions — just like a business dashboard.
+💡 *Insight:* Test revenue outcomes under different plan, billing, or regional scenarios — like a revenue forecasting model.
+
+---
+
+### 3️⃣ 📉 Churn & Retention
+
+**Visualization:** Column chart — Churn Reason vs Signup Month/Year  
+**KPIs:** Reactivation Rate, Total Refunds  
+
+💡 *Insight:* Identify why customers leave, track churn trends over time, and measure success of reactivation efforts.
+
+---
+
+### 4️⃣ ⚙️ Feature Usage & Beta Adoption
+
+**Visualization:** Bar/Column Chart by Plan Tier  
+- Total Usage Count  
+- Beta Feature Adoption %  
+
+💡 *Insight:* Understand which plan tiers show high feature engagement and how experimental features perform among active users.
+
+---
+
+### 5️⃣ 🎧 Support & Customer Experience
+
+**Visualizations:**
+- Avg. Resolution Time by Priority  
+- Customer Satisfaction by Country  
+
+💡 *Insight:* Measure customer experience quality and operational efficiency — key indicators for churn risk and retention.
 
 ---
 
@@ -141,14 +148,11 @@ It demonstrates not just **Excel mastery**, but also **business acumen** — tur
 1. Open **`RavenStack_SaaS_Analytics.xlsx`**  
 2. Explore the raw dataset under the **MergedTable** sheet  
 3. View the **Dashboard** sheet for analytics visualizations  
-4. Use dropdown filters (Plan Tier, Billing, Country) to simulate revenue outcomes  
+4. Use dropdown filters (Plan Tier, Billing Frequency, Country) to simulate revenue outcomes  
 
 ---
 
 ## 👤 Author
 
 **Owais Ali**  
-🎓 BSc Computer Science (CGPA 3.6)  
-📍 Lahore, Pakistan  
-📧 [work.owaisaly@gmail.com](mailto:work.owaisaly@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/owais-ali-a1y) | [GitHub](https://github.com/0waisAli)
+🔗 [LinkedIn](https://linkedin.com/in/owais-ali-a1y)
